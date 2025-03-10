@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Animais - PetShop Virtual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Estacionamento</h1>
+  </header>
+  <h2>Cadastro de Carros</h2>
+  <form id="carrosForm">
+    <label for="modelo">Modelo do carro:</label>
+    <input type="text" id="placa" name="placa" required>
+    
+    <label for="placa">Placa:</label>
+    <input type="text" id="modelo" name="modelo" required>
+    
+    <button onclick="cadastrar(event)">Cadastrar</button>
+  </form>
+  
+  <h2>Lista de Carros</h2>
+  <div id="listaCarros"></div>
+  
+  <script src="./backend/carros.js"></script>
+  <script src="./backend/app.js"></script>
+  <script src="./backend/server.js"></script>
+</body>
+</html>

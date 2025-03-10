@@ -1,0 +1,72 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #01304E;
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 20vh;
+  background-color:#021d2e;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  color: #f7f5f5;
+  text-align: center;
+  align-self: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  background-color:#021d2e;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #4D8ACF;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2d527d;
+}
+
+div#listaClientes, div#listaAnimais {
+  max-width: 800px;
+  margin: 20px auto;
+}
+p{
+  color:#ccc;
+}
